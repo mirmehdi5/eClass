@@ -29,7 +29,6 @@ class PreAssesment extends Component {
   };
 
   render() {
-    console.log("check");
     if (this.state.completed === true) {
       return this.redirectToCourse();
     } else {
